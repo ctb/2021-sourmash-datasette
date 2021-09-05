@@ -10,9 +10,9 @@ Then:
 
 ```
 ./make-db.sh
-datasette gathertax.db --static foo:static/ -o
+datasette gathertax.db --static sourmash:static/ -o
 ```
 
-Then go to /foo/ at the resulting URL.
+Then go to /sourmash/ at the resulting URL.
 
 

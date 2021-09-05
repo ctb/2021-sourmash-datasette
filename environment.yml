@@ -1,0 +1,11 @@
+name: datasette
+channels:
+    - conda-forge
+    - bioconda
+    - defaults
+dependencies:
+    - datasette=0.58.1
+    - pip
+    - pip:
+      - csvs-to-sqlite==1.2
+      - asgiref==3.4.1
