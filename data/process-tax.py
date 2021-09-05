@@ -31,8 +31,6 @@ def main():
                 new_cols = break_out_lineages(lineage)
 
                 row.update(new_cols)
-                del row['lineage']
-
                 new_rows.append(row)
 
     if not new_rows:
