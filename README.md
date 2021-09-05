@@ -19,7 +19,7 @@ Then run:
 # convert sourmash gather/sourmash tax output lineages into their own cols
 ./make-db.sh
 
-# run datsette!
+# run datasette!
 datasette gathertax.db --static sourmash:static/ -o
 ```
 
